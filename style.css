@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header page styles */
+header{
+    background-image: url("images/home-pages.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.navber{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    
+}
+.navber li{
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 20px; 
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navber li:hover{
+      transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0, 180, 219, 0.5);
+        background: linear-gradient(135deg, #0083b0, #005f7a);
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        align-items: center;
+}
+.navber h2{
+    padding-left: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+.fas.fa-arrow-down{
+    color: white;
+    font-size: 200px;
+
+}
+.textrea-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* second page styles */
+.main-fast-page{
+    display: flex;
+}
+.text-content{
+    width: 50%;
+    height: 600px;
+   
+}
+.main-text-content{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 25% auto;
+    gap: 50px;
+}
+.text-content h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.text-content p{
+    color: grey;
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+}
+.text-content button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+
+}
+.main-fast-page img{
+    width: 50%;
+    height: 600px;
+}
+/* Third page styles = same to same of second page*/
+
+/* Forth page styles */
+.main-forth-page{
+   display: flex;
+   flex-direction: row;
+}
+.img-box{
+     width: 50%;
+    height: 600px;
+    position: relative;
+}
+.main-forth-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.text-area-content{
+    position: absolute;
+    top: 50px;
+    width: 600px;
+    text-align: center;
+    padding-left: 30px;
+}
+.text-area-content h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.text-area-content p{
+    color: rgba(90, 90, 90, 1);
+   font-size: 20px;
+   padding-left: 40px;
+}
