@@ -150,3 +150,94 @@ header h1{
    font-size: 20px;
    padding-left: 40px;
 }
+
+
+/* .fifth page styles */
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction-text{
+    text-align: center;
+}
+.boxs{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    gap: 25px;
+}
+.boxs img{
+    width: 70px;
+    height: 70px;
+
+}
+.boxs p{
+    font-size: 15px;
+    color: grey;
+}
+.boxs h3{
+    font-weight: bold;
+}
+.boxs h6{
+    color: grey;
+}
+
+/* sixth page styles */
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    overflow: hidden;
+}
+
+.images img {
+    width: 25%;
+    height: 350px;
+    display: block;
+}
+
+
+/* footer section styles */
+footer{
+    background-color: #80CBC4;
+    color:  #2C4640;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #324a45;
+    cursor: pointer;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+.website-owner{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
